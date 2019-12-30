@@ -1,0 +1,152 @@
+
+body {
+    background: #1A1A1A;
+    color: rgba(255,255,255,0.48);
+    text-align: center;
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*
+a:hover {
+    text-decoration: underline;
+}
+*/
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+header {
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    width: 10rem;
+    height: 2rem;
+    margin: 0 auto .25rem;
+    background: transparent url("../img/logotype.svg") no-repeat center top;
+    background-size: 10rem;
+}
+
+header span {
+    font-size: .875rem;
+}
+
+.section-title {
+    font-size: .875rem;
+    font-weight: 400;
+    color: rgba(255,255,255,0.32);
+}
+
+.follow .section-title {
+    margin-bottom: 1rem;
+}
+.awesome .section-title {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.follow {
+    background: #222222;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.24), 0 1px 3px rgba(0,0,0,0.16);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+}
+
+.social:first-child {
+    margin-bottom: .5rem;
+}
+
+.social a {
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.social.ig a {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(135deg,#b900b4 0%,#f50000 100%);
+}
+
+.social.tw a {color: #1DA1F2;}
+
+.awesome .entry {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: #151515;
+    border: 1px solid rgba(139,68,255,0);
+    border-radius: 8px;
+    transition:box-shadow .5s, border .5s;
+}
+
+.entry:hover {
+    background: #151515;
+    border: 1px solid rgba(255,68,138,0.4);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25), 0 6px 34px 0 rgba(128,0,255,0.11);
+    border-radius: 8px;
+}
+
+.awesome .entry:last-child {
+    margin-bottom: 3rem;
+}
+
+.awesome .entry a {
+    display: block;
+    width: 100%;
+    font-weight: 800;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.awesome .highlight:first-child {
+    margin-bottom: .5rem;
+}
+
+
+footer {
+    width: 160px;
+    padding-top: 150px;
+    background: transparent url("../img/greeting1.png") no-repeat center top;
+    background-size: 156px;
+    font-size: .75rem;
+    color: rgba(255,255,255,0.2);
+    margin: 0 auto 1.5rem;
+}
+
+footer:hover {
+    background: transparent url("../img/greeting2.png") no-repeat center top;
+    background-size: 156px;
+}
+
+
