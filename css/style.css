@@ -63,7 +63,7 @@ header span {
 .section-title {
     font-size: .875rem;
     font-weight: 400;
-    color: rgba(255,255,255,0.32);
+    color: #666666;
 }
 
 .follow .section-title {
@@ -135,18 +135,18 @@ header span {
 
 
 footer {
-    width: 160px;
+    width: 156px;
     padding-top: 150px;
-    background: transparent url("../img/greeting1.png") no-repeat center top;
-    background-size: 156px;
+    background: transparent url("../img/greeting.png") no-repeat left top;
+    background-size: 312px;
     font-size: .75rem;
     color: rgba(255,255,255,0.2);
     margin: 0 auto 1.5rem;
 }
 
 footer:hover {
-    background: transparent url("../img/greeting2.png") no-repeat center top;
-    background-size: 156px;
+    background: transparent url("../img/greeting.png") no-repeat right top;
+    background-size: 312px;
 }
 
 
